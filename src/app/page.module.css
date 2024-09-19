@@ -1,0 +1,27 @@
+.pageWrapper {
+    margin: 0 auto;
+    max-width: 900px;
+}
+.articleWrapper {
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+}
+.articleImageWrapper img {
+    width: 250px;
+}
+.articleInfoWrapper {
+    margin: 0 0 0 1em;
+}
+.articleInfoWrapper h3 {
+    margin-bottom: .5em;
+    font-size: 16px;
+    font-weight: normal;
+}
+.articleInfoWrapper h2 {
+    margin-bottom: .3em;
+}
+.articleInfoWrapper p {
+    margin-bottom: 1.5em;
+}
