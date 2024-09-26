@@ -1,35 +1,64 @@
 .pageWrapper {
-    margin: 0 auto;
-    max-width: 900px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.pageWrapper h1 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-left: .5em;
 }
 .articleWrapper {
-    border: 1px solid black;
-    margin: 1em;
-    padding: 1em;
-    display: flex;
+  border: 1px solid black;
+  margin: 1em;
+  padding: 1em;
+  display: flex;
 }
 .articleImageWrapper img {
-    width: 250px;
+  width: 250px;
 }
 .articleInfoWrapper {
-    margin: 0 0 0 1em;
+  margin: 0 0 0 1em;
 }
 .articleInfoWrapper h3 {
-    margin-bottom: .5em;
-    font-size: 16px;
-    font-weight: normal;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  font-weight: normal;
 }
 .articleInfoWrapper h2 {
-    margin-bottom: .3em;
+  margin-bottom: 0.3em;
 }
 .articleInfoWrapper p {
-    margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
+}
+.articleLink {
+    text-decoration: underline;
+    color: blue;
 }
 
 /* Article Page */
+.articleTitle {
+  font-size: 50px;
+  font-weight: normal;
+}
+.articlePageHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(228, 131, 45);
+  background-size: cover;
+  min-height: 340px;
+}
 .articlePageHeaderWrapper {
-    background-color: rgb(228, 131, 45);
-    background-size: cover;
-    min-height: 340px;
-
+  max-width: 600px;
+}
+.publishDate {
+  margin: 0.5em 0 1em 0;
+}
+.articleText {
+    max-width: 600px;
+    margin: 2em auto;
+}
+.articleText h2, .articleText h3, .articleText h4, .articleText p {
+    margin: 1em 0;
 }
