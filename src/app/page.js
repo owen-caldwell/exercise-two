@@ -8,7 +8,8 @@ export default function Home() {
       <main className={styles.pageWrapper}>
         <h1>Articles</h1>
         {data.map((article, i) => ( // use .map over forEach to display components in React
-          <ArticleCard 
+          <ArticleCard
+          id={article.id}
           key={i} 
           blurb={article.blurb}
           title={article.title} 

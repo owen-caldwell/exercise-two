@@ -25,3 +25,11 @@
 .articleInfoWrapper p {
     margin-bottom: 1.5em;
 }
+
+/* Article Page */
+.articlePageHeaderWrapper {
+    background-color: rgb(228, 131, 45);
+    background-size: cover;
+    min-height: 340px;
+
+}
